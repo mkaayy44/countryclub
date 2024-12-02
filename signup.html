@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up </title> 
+   =<link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cinzel:wght@400..900&family=Lacquer&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Quintessential&display=swap" rel="stylesheet">
+   <style>
+        
+      
+        *{ margin: 0;
+            padding: 0;   box-sizing: border-box
+            
+        }body {
+            background: url('img/cover_about_us-dJoeWBZ5XkIVkVQa.jpg') no-repeat center center/cover;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: rgb(27, 145, 213);
+            font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 100vh;
+        }
+        .login{
+            background: #ffffff;
+            width: 100%;
+            max-width: 410px;
+padding:36px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+        }
+        .login .inputs{
+            margin-bottom: 16px;
+            text-align: left;
+        }
+      input{   width: 100%;
+            padding: 12px;
+            border: 1.5px solid #000000;
+            border-radius: 4px;
+            font-size: 16px;
+
+        }
+ label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+  .title{
+    margin-bottom: 16px;
+    color:  rgb(20, 127, 166);
+  }
+
+  .button{
+   padding: 10px;
+    background-color:  rgb(20, 127, 166);
+    border: none;
+    border-radius: 6px;
+
+ font-size: 17px;
+text-align: center;
+width: 100%;
+cursor:cell;
+margin-top: 10px;
+}
+.button:hover{
+background-color:rgb(20, 127, 166);
+color:  #ffffff;
+}
+.divremember{
+   display: flex;
+   align-items: center;
+
+margin-top: 16px;
+margin-bottom: 16px;
+margin-right:25%;
+
+
+  }.divremember input {
+    margin-right: 16px;
+    font-size: 25px;
+  
+}
+.divremember label{
+    font-size: 13px;}
+
+.signup{
+    margin-top:16px;
+    display: block;
+    font-size: 0.875rem;
+    color: #007bff;
+    text-decoration: none;
+}
+.signup:hover{
+   
+text-transform: capitalize;
+color: black;
+}
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+    
+
+    .login {
+        width: 100%;
+        max-width: 100%;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: none;
+    }
+
+    .title h1 {
+        font-size: 1.5rem;
+    }
+
+    .button {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .divremember {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 0;
+    }
+
+    .divremember label {
+        font-size: 12px;
+    }
+
+    .signup {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title h1 {
+        font-size: 1.25rem;
+    }
+
+    input, .button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .divremember label {
+        font-size: 11px;
+    }    .login{
+    padding: 50px;
+}
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="login" >
+       <div class="title"> <h1>Sign UP</h1> </div>
+        <form method="post" action="signup.php">
+    <div class="inputs">      <label for="username">Email</label>
+    <input type="email" name="email" > </div>    
+    <div class="inputs">    
+        <label for="username">Password</label>
+       <input type="password" name="password" >  </div>  
+          <button type="submit" class="button">SIGN UP</button>
+        </form>
+      
+</body>
+</html>

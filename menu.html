@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resturant</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0&icon_names=tv_signin" />
+<link rel="stylesheet" href="footerstyle.css">
+<link rel="stylesheet" href="headerstyle.css">
+<script src="responsivenabar.js"></script>
+  <style>
+  
+      * { margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+
+    
+.gallery {
+  padding:32px;
+}
+ a{ 
+  color: black;
+  background-color:#f7f3e9;
+ }
+.sectionphoto{
+  margin-top: 150px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px; 
+}
+
+.photos   img{
+
+  height: 300px;
+  border-radius: 8px;
+
+}
+
+
+.photos{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); 
+  gap: 24px; 
+}
+
+@media (min-width: 768px) { 
+  .photos{
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (min-width: 1024px) { 
+  .photos{
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  }
+}
+
+.photos img{
+ width: 470px; height:300px;
+}
+    body {
+  
+      margin: 0;
+      padding: 0;
+      background-color: #f7f3e9;
+      color: #333;
+    }
+
+    .menu-container {
+      width: 90%;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 25px;
+    background-color: #2a768b;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .titlegallery{
+      text-align: center;
+      font-size: 40px;
+      margin-bottom: 20px;
+      color:black;
+      letter-spacing: 2px;
+      font-family: 'Great Vibes', cursive;
+  
+    }
+    h1 {
+      text-align: center;
+      font-size:40px;
+      margin-bottom: 20px;
+      color:white;
+      letter-spacing: 2px;
+      font-family: 'Great Vibes', cursive;
+    }
+    
+   h2{
+      text-align: center;
+      font-size:40px;
+      margin-bottom: 20px;
+      color: #2a768b;
+      letter-spacing: 2px;
+      font-family: 'Great Vibes', cursive;
+    }
+    
+
+    .menu-section {
+      margin-bottom: 30px;
+    }
+
+    .menu-section h2 {
+      margin-bottom: 15px;
+      font-size: 30px;
+  color: white;
+  
+      border-bottom: 2px solid #e3c09b;
+      padding-bottom: 5px;
+      letter-spacing: 1px;     font-family: 'Great Vibes', cursive;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu-section ul li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 15px;
+      margin-bottom: 10px;
+      background: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      transition: transform 0.2s ease;
+    }
+
+    ul li:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    ul li span {
+      font-size: 17px;
+      color: #333;
+    }
+
+    ul li span:last-child {
+      font-weight: bold;
+      color: #6b4f4f;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      h1 {
+        font-size:32px;
+      }
+
+      ul li span {
+        font-size: 16px;
+      }
+    }
+    .navi{
+      background-color:#f7f3e9; ;
+    }
+    .photos img{
+      height: 300px;
+      width:100%
+    }
+  </style>
+</head>
+<body>
+  <div id="navbar">
+    <nav class="navigationbar">
+       <h1 class="logo"><a href="index1.html"><img src="img/country-club-06-m7V898ayM1uxBXM0.avif"></a></h1>
+   <ul class="navi">
+       <li><a class="active"href="index1.html">Home</a></li> 
+        <li><a href="index1.html#ser">Services</a></li> <li><a href="about.html">About us</a></li>
+         <li class="ctn"><a href="contactus.html">Contact us</a></li>
+        <li><a href="login.html"><span class="material-symbols-outlined">
+           tv_signin
+           </span></a></li> 
+   </ul>
+   <img src="img/bar.png" alt="" class="menubutton">
+    </nav> </div>
+
+  <section class="gallery" id="gallery">
+  <div class="sectionphoto">
+   <h2>Come and visit us to try out tasty food</h2>
+    <div class="photos">
+     <div>
+      <img  src="img/resturants 1.avif">
+     </div>
+     <div>
+      <img  src="img/resturants 2.avif" >
+     </div>
+     <div>
+      <img  src="img/sandwich.jpg">
+     </div>
+  </div>
+  </section> </div>
+  <div class="menu-container">
+   
+  <h1>Our Menu</h1>
+    <div class="menu-section">
+      <h2>Sandwiches</h2>
+      <ul>
+        <li>
+          <span>Chicken Burger</span>
+          <span>$5</span>
+        </li>
+        <li>
+          <span>Cheese Chicken Burger</span>
+          <span>$6.5</span>
+        </li>
+        <li>
+          <span>Beef Burger</span>
+          <span>$5.49</span>
+        </li>
+        <li>
+          <span>Tawook</span>
+          <span>$6.5</span>
+        </li>
+        <li>
+          <span>Haloum</span>
+          <span>$4.00</span>
+        </li>
+        <li>
+          <span>Fahita</span>
+          <span>$7.5</span>
+        </li>
+        <li>
+          <span>Chicken Sub</span>
+          <span>$6.99</span>
+        </li>
+        <li>
+          <span>Crispy</span>
+          <span>$6.99</span>
+        </li>
+        <li>
+          <span> Bbq Crispy</span>
+          <span>$6.99</span>
+        </li>
+        <li>
+          <span> Hot Crispy</span>
+          <span>$7.99</span>
+        </li>
+        <li>
+          <span>French Fries</span>
+          <span>$3.99</span>
+        </li>
+        <li>
+          <span>French Fries box</span>
+          <span>$3</span>
+        </li>
+      </ul>
+    </div>
+    <div class="menu-section">
+      <h2>Desserts</h2>
+      <ul>
+        <li>
+          <span>Chocolate Cake</span>
+          <span>$2.99</span>
+        </li>
+        <li>
+          <span>Ice cream</span>
+          <span>$2.50</span>
+        </li>
+      
+      </ul>
+    </div>
+    <div class="menu-section">
+      <h2>Beverages</h2>
+      <ul>
+        <li>
+          <span>Water</span>
+          <span>$1</span>
+        </li>
+        <li>
+          <span>Soft Drink</span>
+          <span>$1.8</span>
+        </li>
+        <li>
+          <span>Juice</span>
+          <span>$4.50</span>
+        </li>
+        <li>
+          <span>Frisco</span>
+          <span>$1.50</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-container">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/your_instagram_username"><img src="img/Instagram.png" alt="Instagram" style="height: 40px;"></a>
+            <a href="https://www.facebook.com/your_facebook_username"><img src="img/145802.png" alt="Facebook"style="height:40px;"></a>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a class="color" href="index1.html">Home</a></li>
+                <li><a class="color" href="about.html">About Us</a></li>
+                <li><a class="color" href="index1.html#ser">Services</a></li>
+                <li><a class="color" href="contactus.html">Contact </a></li>
+                <li><a class="color" href="login.html">Login</a></li>
+            </ul>
+        </div>
+        <div class="footer-logo">
+            <img src="img/country-club-06-m7V898ayM1uxBXM0.avif" alt="Your Logo" >
+        </div>
+    </div>
+   
+</footer>
+</body>
+</html>
